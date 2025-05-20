@@ -14,7 +14,7 @@ export default function renderProductCards(languageState) {
       card.className = 'card';
       card.innerHTML = `
         <div class="card__img">
-          <img src="../../../img/bags/${product.image}.png" alt="products img">
+          <img src="./img/bags/${product.image}.png" alt="products img">
         </div>
         <div class="card-header">
           <div class="card__title">
